@@ -1,5 +1,4 @@
 //-----------------------------------------------------------------------------
-// ass1.c
 //
 // Binary Calculator
 // Binary numbers get sorted and converted into octal numbers, 
@@ -7,8 +6,8 @@
 //
 // Group: A study assistant Paul Nagele
 //
-// Authors: Julia Christina Maier 11717719
-//          Ismail Geles 11719144
+// Authors: Julia Christina Maier
+//          Ismail Geles
 //
 // Latest Changes: 09.11.2017 (by Ismail Geles and Julia Christina Maier)
 //-----------------------------------------------------------------------------
