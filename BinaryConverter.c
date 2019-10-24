@@ -1,15 +1,14 @@
 //-----------------------------------------------------------------------------
 //
-// Binary Calculator
+// Binary Converter
+// 
 // Binary numbers get sorted and converted into octal numbers, 
 // hexadecimal numbers and decimal numbers
 //
-// Group: A study assistant Paul Nagele
-//
-// Authors: Julia Christina Maier
-//          Ismail Geles
-//
-// Latest Changes: 09.11.2017 (by Ismail Geles and Julia Christina Maier)
+// Authors:   Ismail Geles
+//            Julia Maier
+//          
+// Latest Changes: 09.11.2017
 //-----------------------------------------------------------------------------
 //
 
@@ -83,6 +82,7 @@ int main(void)
   // Octets get sorted if necessary
   sort(endianess, number_octets, int_octet, sort_octet);
   
+  printf("binary: ");
   binaryOut(number_octets, sort_octet);
 
   intArrayToString(number_octets, sort_octet, binary_number);
@@ -93,10 +93,13 @@ int main(void)
 
   size_of_hex_array = binaryToHexadecimal(hexadecimal, binary_number);
 
+  printf("octal: ");
   octalOut(size_of_octal_array, octal);
-
+  
+  printf("decimal: ");
   decimalOut(number_octets, decimal_number);
 
+  printf("hexadecimal: ");
   hexadecimalOut(size_of_hex_array, hexadecimal);
 
   return 0;
