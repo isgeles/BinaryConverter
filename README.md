@@ -3,7 +3,7 @@
 Sort binary numbers and convert them to octal, hexadecimal and decimal numbers.
 
 ## Example:
->> $ ./BinaryConverter
+>> $ ./BinaryConverter <br>
 >> Please enter the number of octets: 3 <br>
 >> Please enter octet: 10001011 <br>
 >> Please enter octet: 00111010 <br>
